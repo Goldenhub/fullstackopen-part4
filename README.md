@@ -37,7 +37,7 @@
 - Run `npm install`
 - Run `npm run dev` to start the server with nodemon
 - Run `npm start` to start the server without nodemon
-- Use a Postman or any Rest Client to test the endpoints
+- Use Postman or any Rest Client to test the endpoints
 
 - ```javascript
   // GET all blogs
@@ -55,8 +55,8 @@
 
 ### Note
 
-- the server will run in PORT 3003 by default. You can change this in your .env file.
-- MongoDB database was used for this project. You can change the database name in your .env file.
+- The server will run in PORT 3003 by default. You can set the PORT in your .env file.
+- MongoDB database was used for this project. You can set the MONGODB_URI in your .env file.
 
 ## How to lint
 
