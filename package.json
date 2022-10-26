@@ -4,6 +4,8 @@
   "description": "A simple blog list built with NodeJS and MongoDB",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: No test specified\" && exit 1"
   },
   "repository": {

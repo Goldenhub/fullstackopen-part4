@@ -20,8 +20,7 @@
 ├── index.js
 ├── app.js
 ├── controllers
-│   ├── blogController.js
-│   └── userController.js
+│   ├──blogs.js
 ├── package-lock.json
 ├── package.json
 ├── utils
