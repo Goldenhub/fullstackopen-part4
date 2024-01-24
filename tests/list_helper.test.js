@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 /* eslint-disable linebreak-style */
 const { dummy, totalLikes, favoriteBlog, mostBlogs, mostLikes } = require('../utils/list_helper')
 
@@ -96,14 +97,14 @@ describe('favorite blog', () => {
 			author: 'Edsger W. Dijkstra',
 			likes: 12,
 		})
-	})	
+	})
 })
 
 describe('blog', () => {
 	test('with most blogs', () => {
 		const result = mostBlogs(blogs)
 		expect(result).toEqual({
-			author: "Robert C. Martin",
+			author: 'Robert C. Martin',
   			blogs: 3
 		})
 	})
@@ -111,7 +112,7 @@ describe('blog', () => {
 	test('with most likes', () => {
 		const result = mostLikes(blogs)
 		expect(result).toEqual({
-			author: "Edsger W. Dijkstra",
+			author: 'Edsger W. Dijkstra',
   			likes: 12
 		})
 	})

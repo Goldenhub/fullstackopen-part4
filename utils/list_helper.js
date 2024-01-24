@@ -29,22 +29,22 @@ const mostBlogs = (blogs) => {
 	let result = {
 		author: '',
 		blogs: 0
-	};
+	}
 	for(let i = 0; i < blogs.length; i++){
-		let c = 0;
+		let c = 0
 		for(let j = i; j < blogs.length; j++){
 			if(blogs[j].author === blogs[i].author){
-				c = c + 1;
+				c = c + 1
 			}else{
-				continue;
+				continue
 			}
 		}
 		if(c > result.blogs) {
-			result.author = blogs[i].author;
-			result.blogs = c;
+			result.author = blogs[i].author
+			result.blogs = c
 		}
 	}
-	return result;
+	return result
 }
 
 const mostLikes = (blogs) => {
@@ -53,7 +53,7 @@ const mostLikes = (blogs) => {
 			return current
 		}
 		return prev
-	}, {...blogs[0]})
+	}, { ...blogs[0] })
 
 	return {
 		author: result.author,
